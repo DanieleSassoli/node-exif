@@ -1,12 +1,28 @@
 {
-	"name" : "exif",
-	"version" : "0.4.0",
-	"description" : "A node.js library to extract Exif metadata from images.",
-	"author" : "Daniel Leinich <leinich@gmx.net>",
-    "keywords" : ["exif", "image", "jpeg", "jpg", "tiff", "makernotes", "gps"],
-	"main" : "./lib/exif",
-	"repository" : {
-		"type" : "git",
-		"url" : "http://github.com/gomfunkel/node-exif.git"
-	}
+  "name": "fixed-node-exif",
+  "version": "0.4.0",
+  "description": "A node.js library to extract Exif metadata from images.",
+  "author": "Daniel Leinich <leinich@gmx.net>",
+  "keywords": [
+    "exif",
+    "image",
+    "jpeg",
+    "jpg",
+    "tiff",
+    "makernotes",
+    "gps"
+  ],
+  "main": "./lib/exif",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gomfunkel/node-exif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gomfunkel/node-exif/issues"
+  },
+  "homepage": "https://github.com/gomfunkel/node-exif",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
